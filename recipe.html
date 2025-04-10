@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Home</a> 
+        <a href="add-recipe.html">Add Recipe</a> 
+        <a href="recipe-list.html">Recipe List</a>
+      </nav>
+    </header>  <main>
+      <section>
+        <h1>Welcome to My Recipe Book</h1>
+        <p>Explore delicious recipes for every occasion!</p>
+      </section><section>
+    <h2>Recipe of the Day</h2>
+    <h3>Spaghetti Carbonara</h3>
+    <p>A creamy Italian pasta dish that's quick and tasty.</p>
+    <img src="carbonara.jpg" alt="Spaghetti Carbonara" width="300" height="200">
+    <p><a href="recipe-details.html">View Full Recipe</a></p>
+  </section>
+  
+  <section>
+    <h2>Featured Categories</h2>
+    <ul>
+      <li><a href="recipe-list.html#desserts">Desserts</a></li>
+      <li><a href="recipe-list.html#vegan">Vegan</a></li>
+      <li><a href="recipe-list.html#quick">Quick Meals</a></li>
+    </ul>
+  </section>
+  
+    </main>
+  </body>
+  </html><!-- add-recipe.html --><!DOCTYPE html><html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Add a Recipe</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Home</a> 
+        <a href="add-recipe.html">Add Recipe</a> 
+        <a href="recipe-list.html">Recipe List</a>
+      </nav>
+    </header>  <main>
+      <h1>Add Your Recipe</h1>
+      <form action="#" method="post">
+        <label>Recipe Name:<br><input type="text" name="name" required></label><br><br>
+        <label>Ingredients:<br><textarea name="ingredients" required></textarea></label><br><br>
+        <label>Cooking Instructions:<br><textarea name="instructions" required></textarea></label><br><br>
+        <label>Image URL:<br><input type="url" name="image" required></label><br><br>
+        <label>Category:<br>
+          <select name="category" required>
+            <option value="desserts">Desserts</option>
+            <option value="appetizers">Appetizers</option>
+            <option value="vegan">Vegan</option>
+            <option value="quick">Quick Meals</option>
+          </select>
+        </label><br><br>
+        <button type="submit">Add Recipe</button>
+      </form>
+    </main>
+  </body>
+  </html><!-- recipe-list.html --><!DOCTYPE html><html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Recipe List</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Home</a> 
+        <a href="add-recipe.html">Add Recipe</a> 
+        <a href="recipe-list.html">Recipe List</a>
+      </nav>
+    </header>  <main>
+      <h1>All Recipes</h1>
+      <label>Filter by Category:
+        <select>
+          <option>All</option>
+          <option>Desserts</option>
+          <option>Vegan</option>
+          <option>Quick Meals</option>
+        </select>
+      </label><section>
+    <article>
+      <h2>Spaghetti Carbonara</h2>
+      <img src="carbonara.jpg" alt="Carbonara" width="200" height="200">
+      <p>A creamy Italian pasta dish.</p>
+      <a href="recipe-details.html">View Recipe</a>
+    </article>
+    <!-- Add more recipes similarly -->
+  </section>
+  
+    </main>
+  </body>
+  </html><!-- recipe-details.html --><!DOCTYPE html><html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Recipe Details</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Home</a> |
+        <a href="add-recipe.html">Add Recipe</a> |
+        <a href="recipe-list.html">Recipe List</a>
+      </nav>
+    </header>  <main>
+      <h2>Spaghetti Carbonara</h2>
+      <img src="carbonara.jpg" alt="Spaghetti Carbonara" width="300">
+      <p><strong>Submitted by:</strong> Chef Ahmad</p><section>
+    <h3>Ingredients:</h3>
+    <ul>
+      <li>200g spaghetti</li>
+      <li>100g pancetta</li>
+      <li>2 eggs</li>
+      <li>50g Parmesan cheese</li>
+      <li>Salt & pepper</li>
+    </ul>
+  
+    <h3>Instructions:</h3>
+    <ol>
+      <li>Boil the pasta.</li>
+      <li>Fry the pancetta until crisp.</li>
+      <li>Mix eggs and cheese in a bowl.</li>
+      <li>Combine pasta with pancetta and egg mixture.</li>
+      <li>Serve hot with extra cheese.</li>
+    </ol>
+  </section>
+  
+    </main>
+  </body>
+  </html>
+</body>
+</html>
